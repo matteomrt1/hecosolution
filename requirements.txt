@@ -1,0 +1,9 @@
+databases==0.6.1
+deta==1.1.0
+pandas==1.2.4
+xlrd<2.0
+plotly==5.9.0
+python-dotenv==0.20.0
+streamlit==1.11.1
+streamlit_option_menu==0.3.2
+protobuf==3.20.1
