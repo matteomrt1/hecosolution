@@ -32,42 +32,42 @@ st.title(page_title + " " + page_icon)
 # ---- READ EXCEL ----
 
 df = pd.read_excel(
-        io="C:/Users\matte\OneDrive\Desktop\HecoEnergy\HECO\Analisi\Analisi Mercato\Italia\Tool/Online_tool.xlsx",
+        io="Online_tool.xlsx",
         engine="openpyxl",
         sheet_name="Tabella A_ comuni e zone climat",
         usecols="A:O",
     )
 
 cons_res = pd.read_excel(
-        io="C:/Users\matte\OneDrive\Desktop\HecoEnergy\HECO\Analisi\Analisi Mercato\Italia\Tool/Online_tool.xlsx",
+        io="Online_tool.xlsx",
         engine="openpyxl",
         sheet_name="Res kWhmqK per zona climatica",
         usecols="A:E",
     )
 
 cons_ind = pd.read_excel(
-        io="C:/Users\matte\OneDrive\Desktop\HecoEnergy\HECO\Analisi\Analisi Mercato\Italia\Tool/Online_tool.xlsx",
+        io="Online_tool.xlsx",
         engine="openpyxl",
         sheet_name="Ind kWhmqK per zona climatica",
         usecols="A:E",
     )
 
 combustibile = pd.read_excel(
-        io="C:/Users\matte\OneDrive\Desktop\HecoEnergy\HECO\Analisi\Analisi Mercato\Italia\Tool/Online_tool.xlsx",
+        io="Online_tool.xlsx",
         engine="openpyxl",
         sheet_name="Fuel",
         usecols="A",
     )
 
 fatt_corr = pd.read_excel(
-        io="C:/Users\matte\OneDrive\Desktop\HecoEnergy\HECO\Analisi\Analisi Mercato\Italia\Tool/Online_tool.xlsx",
+        io="Online_tool.xlsx",
         engine="openpyxl",
         sheet_name="FattoreCorrettivo_Cl_en",
         usecols="A:U",
     )
 
 H = pd.read_excel(
-        io="C:/Users\matte\OneDrive\Desktop\HecoEnergy\HECO\Analisi\Analisi Mercato\Italia\Tool/Heco_System.xlsx",
+        io="Heco_System.xlsx",
         engine="openpyxl",
         sheet_name="Heco_Rendim",
         usecols="A:F",
